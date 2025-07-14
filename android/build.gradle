@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.amolg.flutterbarcodescanner' // vagy bármilyen logikus név
+    
     compileSdkVersion 30
 
     defaultConfig {
